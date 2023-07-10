@@ -60,6 +60,7 @@ public:
                 }
             }
 
+/*
             for (auto& coautor : listaAdy[autorB]) {
                 if (coautor.first == autorA) 
                 {
@@ -67,7 +68,7 @@ public:
                     break;
                 }
              }
-
+*/
 
         }
     }
