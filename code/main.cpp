@@ -8,11 +8,8 @@
 
 using namespace std;
 
-<<<<<<< HEAD
 int multiplicador=10000;
-=======
-int multiplicador=10;
->>>>>>> parent of 52747db (Final)
+
 
 //PARA TOMAR EL TIEMPO
 template <typename Func>

@@ -8,11 +8,7 @@ LDLIBS="grafos.cpp" "clase_lista.cpp" "clase_matriz.cpp"
 
 TEST_CASES_NUMBER := $(shell seq 1 5) #rango de archivos de input y output
 
-<<<<<<< HEAD
-RANGE = 1 2 3 4 5#distintas tareas a probar
-=======
 RANGE = 1 2 3 4#distintas tareas a probar
->>>>>>> parent of 52747db (Final)
 
 # 1 CREA MATRIZ DE ADYACENCIA
 # 2 CREA LISTA DE ADYACENCIA

@@ -75,7 +75,7 @@ void show_Matriz(MatrizAdyacencia matriz)
 MatrizAdyacencia crea_matrizAdyacencia(int tam_matriz, MatrizAdyacencia matriz)
 {
 
-    ifstream myfile("test.xml");
+    ifstream myfile("dblp.xml");
     xml_document<> doc; //Acá se almacena todo el documento XML
 
     //Abre el archivo y lo parsea
@@ -146,8 +146,8 @@ MatrizAdyacencia crea_matrizAdyacencia(int tam_matriz, MatrizAdyacencia matriz)
 
     }
 
-    show_listaAutores();
-    matriz.show_matrizAdyacencia();
+    //show_listaAutores();
+    //matriz.show_matrizAdyacencia();
     //matriz.cuenta_coautoria();
 
     return matriz;
@@ -157,7 +157,7 @@ MatrizAdyacencia crea_matrizAdyacencia(int tam_matriz, MatrizAdyacencia matriz)
 ListaAdyacencia crea_listaAdyacencia(int tam_lista, ListaAdyacencia lista)
 {
 
-    ifstream myfile("test.xml");
+    ifstream myfile("dblp.xml");
     xml_document<> doc; //Acá se almacena todo el documento XML
 
     //Abre el archivo y lo parsea
@@ -230,8 +230,8 @@ ListaAdyacencia crea_listaAdyacencia(int tam_lista, ListaAdyacencia lista)
     }
 
 
-    show_listaAutores();
-    lista.imprimirListaAdyacencia();
+    //show_listaAutores();
+    //lista.imprimirListaAdyacencia();
     //lista.cuenta_coautoria();
 
     return lista;
